@@ -15,13 +15,15 @@
 
 <body>
     
-        <!--    EXTERNAL Menu panel - must be added outside a page and possibly needs initialising in js (this one didnt) -->
-        <div data-role="panel" id="linkPanel" 	data-position="right" data-display="reveal">
+        
+    <!--    EXTERNAL Menu panel - must be added outside a page and needs initialising in js (must have theme to work) -->
+        <div data-role="panel" id="linkPanel" 	data-position="left" data-display="reveal" data-theme="a">
             <a href="#pageone" class="ui-btn">Go to Page One</a>
             <a href="#pagetwo" class="ui-btn">Go to Page Two</a>
             <a href="#pagethree" class="ui-btn">Go to Page Three</a>
+            <li data-icon="back"><a href="#" data-rel="close">Close</a></li>
         </div>
-    
+	
     
     
     <div data-role="page" id="pageone" data-position="fixed">
@@ -78,8 +80,7 @@
     </div> 
 
   
-
-	
+    
 
 </body>
 </html>

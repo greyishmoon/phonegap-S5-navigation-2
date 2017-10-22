@@ -38,5 +38,6 @@ function onReady( jQuery  ) {
 function updateDisplay() {
 	$("#linked").text("Text replaced by updateDisplay");
     
-    //$( "#mypanel" ).panel();
+    $("[data-role=panel]").panel();
+    //$("[data-role=panel]").find("a").addClass("ui-btn");
 }
