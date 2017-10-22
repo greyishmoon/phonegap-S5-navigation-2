@@ -37,4 +37,6 @@ function onReady( jQuery  ) {
 // USE FOR ALL DISPLAY CODE
 function updateDisplay() {
 	$("#linked").text("Text replaced by updateDisplay");
+    
+    //$( "#mypanel" ).panel();
 }

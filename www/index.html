@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Application Navigation 1</title>
+    <title>Application Navigation 2</title>
     
     <!-- Mobile screen size fix   -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
@@ -15,53 +15,66 @@
 
 <body>
     
+        <!--    EXTERNAL Menu panel - must be added outside a page and possibly needs initialising in js (this one didnt) -->
+        <div data-role="panel" id="linkPanel" 	data-position="right" data-display="reveal">
+            <a href="#pageone" class="ui-btn">Go to Page One</a>
+            <a href="#pagetwo" class="ui-btn">Go to Page Two</a>
+            <a href="#pagethree" class="ui-btn">Go to Page Three</a>
+        </div>
+    
+    
+    
     <div data-role="page" id="pageone" data-position="fixed">
-      <div data-role="header">
-        <h1>Page 1</h1>
-      </div>
+      
+        <div data-role="header">
+            <a href="#linkPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <h1>Page 1</h1>
+        </div>
 
-      <div data-role="main" class="ui-content">
-        <p>Welcome! Use the links below to navigate to the other pages!</p>
-        <p><div id="linked">Placeholder</div></p>
-        <p><a href="#pagetwo">Go to Page Two</a></p>
-        <p><a href="#pagethree">Go to Page Three</a></p>
-      </div>
+        <div data-role="main" class="ui-content">
+            <p>Welcome! Use the links below to navigate to the other pages!</p>
+            <p><div id="linked">Placeholder</div></p>
+            <p><a href="#pagetwo">Go to Page Two</a></p>
+            <p><a href="#pagethree">Go to Page Three</a></p>
+        </div>
 
-      <div data-role="footer" data-position="fixed">
-        <h1>Footer Text</h1>
-      </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Footer Text</h1>
+        </div>
     </div> 
 
     <div data-role="page" id="pagetwo" data-position="fixed">
-      <div data-role="header">
-        <h1>Page 2</h1>
-      </div>
+        <div data-role="header">
+            <a href="#linkPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <h1>Page 2</h1>
+        </div>
 
-      <div data-role="main" class="ui-content">
-        <p>Welcome! Use the links below to navigate to the other pages!</p>
-        <p><a href="#pageone">Go to Page One</a></p>
-        <p><a href="#pagethree">Go to Page Three</a></p>
-      </div>
+        <div data-role="main" class="ui-content">
+            <p>Welcome! Use the links below to navigate to the other pages!</p>
+            <p><a href="#pageone">Go to Page One</a></p>
+            <p><a href="#pagethree">Go to Page Three</a></p>
+        </div>
 
-      <div data-role="footer" data-position="fixed">
-        <h1>Footer Text</h1>
-      </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Footer Text</h1>
+        </div>
     </div> 
     
     <div data-role="page" id="pagethree" data-position="fixed">
-      <div data-role="header">
-        <h1>Page 3</h1>
-      </div>
+        <div data-role="header">
+            <a href="#linkPanel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <h1>Page 3</h1>
+        </div>
 
-      <div data-role="main" class="ui-content">
-        <p>Welcome! Use the links below to navigate to the other pages!</p>
-        <p><a href="#pageone">Go to Page One</a></p>
-        <p><a href="#pagetwo">Go to Page Two</a></p>
-      </div>
+        <div data-role="main" class="ui-content">
+            <p>Welcome! Use the links below to navigate to the other pages!</p>
+            <p><a href="#pageone">Go to Page One</a></p>
+            <p><a href="#pagetwo">Go to Page Two</a></p>
+        </div>
 
-      <div data-role="footer" data-position="fixed">
-        <h1>Footer Text</h1>
-      </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Footer Text</h1>
+        </div>
     </div> 
 
   
