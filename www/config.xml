@@ -6,7 +6,7 @@
         id        = "mob.app.dev.nav2"
         version   = "1.0.0">
 
-    <name>Application Navigation 2</name>
+    <name>Week 5 - Navigation 2</name>
 
     <description>
         A sample application that demonstrates JQuery Mobile panel navigation
@@ -17,9 +17,9 @@
     </author>
 
     <preference name="phonegap-version" value="cli-7.0.1" />
-	
-    <preference name="permissions"                value="none"/>   
-	
+
+    <preference name="permissions"                value="none"/>
+
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
 </widget>
